@@ -1,0 +1,63 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 6,
+      "subtext" : {
+        "size" : 9,
+        "colorSelected" : "#62667EFF",
+        "font" : "SF Mono",
+        "color" : "#61657FFF"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#FF505CFF",
+        "font" : "SF Mono",
+        "color" : "#FF505CFF"
+      },
+      "backgroundSelected" : "#000000FF",
+      "text" : {
+        "size" : 12,
+        "colorSelected" : "#FF505CFF",
+        "font" : "SF Mono Semibold",
+        "color" : "#DDE1F7FF"
+      },
+      "iconPaddingHorizontal" : 6,
+      "roundness" : 0,
+      "paddingVertical" : 5,
+      "iconSize" : 38
+    },
+    "separator" : {
+      "color" : "#08090BFF",
+      "thickness" : 4
+    },
+    "search" : {
+      "backgroundSelected" : "#0096FFFF",
+      "paddingHorizontal" : 8,
+      "spacing" : 15,
+      "text" : {
+        "size" : 49,
+        "colorSelected" : "#000000FF",
+        "font" : "SF Mono Heavy",
+        "color" : "#DDE1F7FF"
+      },
+      "background" : "#08090BFF",
+      "roundness" : 0,
+      "paddingVertical" : 2
+    },
+    "scrollbar" : {
+      "color" : "#61657FFF",
+      "thickness" : 2
+    },
+    "name" : "One Red",
+    "window" : {
+      "color" : "#08090BFF",
+      "paddingHorizontal" : 24,
+      "width" : 600,
+      "borderPadding" : 10,
+      "borderColor" : "#272B3400",
+      "blur" : 0,
+      "roundness" : 3,
+      "paddingVertical" : 19
+    }
+  }
+}
