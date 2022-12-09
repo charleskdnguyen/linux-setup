@@ -2,8 +2,8 @@
 
 echo "installing zsh and p10k..."
 
-ln -sf ~/dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
-ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
+ln -sf ~/linux-setup/zsh/.p10k.zsh ~/.p10k.zsh
+ln -sf ~/linux-setup/zsh/.zshrc ~/.zshrc
 
 echo "done!"
 

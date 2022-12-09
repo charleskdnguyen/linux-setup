@@ -12,7 +12,7 @@ echo "Installing ZSH..."
 yay zsh
 # zsh-completions zsh-syntax-highlighting zsh-autosuggestions
 
-ln -s ~/dotfiles/.
+ln -s ~/linux-setup/.
 
 # Git
 echo "Installing Git..."
@@ -22,7 +22,6 @@ yay git
 echo "Installing Development..."
 yay python python-virtualenv
 yay nodejs npm
-yay go
 yay cmake
 yay docker
 

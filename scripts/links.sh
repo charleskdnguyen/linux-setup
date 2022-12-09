@@ -2,7 +2,7 @@
 
 echo "making links..."
 
-source ~/dotfiles/zsh/install.sh
-source ~/dotfiles/kitty/install.sh
+source ~/linux-setup/zsh/install.sh
+source ~/linux-setup/kitty/install.sh
 
 echo "done!"
