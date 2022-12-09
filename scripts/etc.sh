@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "install powerlevel10k..."
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH/themes/powerlevel10k
+yay -S --noconfirm zsh-theme-powerlevel10k-git
 
 echo "copy .config"
 cp -R ~/linux-setup/.config/ ~/.config/
