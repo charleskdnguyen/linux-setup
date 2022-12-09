@@ -4,6 +4,9 @@
 echo "Updating packages..."
 yay -Syu
 
+# Install AUR package manager
+yay -S pamac-aur-git
+
 # Install ZSH
 echo "Installing ZSH..."
 yay zsh
