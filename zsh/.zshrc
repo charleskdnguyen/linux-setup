@@ -38,12 +38,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=204"
 alias reload-zsh="source ~/.zshrc"
 
 hash -d lq=~/dev/long-quan
-hash -d df=~/dotfiles
-hash -d vi=~/dotfiles/neovim
-hash -d cdc=~/dev/cdc
-hash -d hmi=~/dev/taiga/hmi
-hash -d taiga=~/dev/taiga
-hash -d cashflow=~/dev/cashflow
+hash -d df=~/linux-setup
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

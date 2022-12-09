@@ -2,5 +2,5 @@
 
 echo "Setting up gitconfig..."
 
-ln -sf ~/dotfiles/gitconfig/.gitconfig ~/.gitconfig
+ln -sf ~/linux-setup/gitconfig/.gitconfig ~/.gitconfig
 echo "done!"
