@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "convertNumber.py", line 54, in <module>
-    if (int(sys.argv[2]) <= 36):
-ValueError: invalid literal for int() with base 10: 'inch'
