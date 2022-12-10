@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "installing zsh and p10k..."
+echo "Adding SymLinks for p10k and zshrc"
 
 ln -sf ~/linux-setup/zsh/.p10k.zsh ~/.p10k.zsh
 ln -sf ~/linux-setup/zsh/.zshrc ~/.zshrc
 
-echo "done!"
+echo "Done!"
 
