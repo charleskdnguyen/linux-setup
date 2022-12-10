@@ -17,9 +17,12 @@ plugins=(
 )
 
 # necessary?
-#source $ZSH/oh-my-zsh.sh
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+source $ZSH/oh-my-zsh.sh
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=204"
+
+bindkey '^ ' autosuggest-accept
 
 # aliases
 alias reload-zsh="source ~/.zshrc"
