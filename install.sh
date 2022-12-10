@@ -6,9 +6,7 @@ source ./scripts/yay.sh
 source ./scripts/links.sh
 source ./scripts/etc.sh
 source ./fonts/install.sh
-source ./wallpapers/install.sh
 source ./gitconfig/install.sh
-source ./kitty/install.sh
 
 echo "Sourcing zshrc..."
 
