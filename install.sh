@@ -18,3 +18,5 @@ echo "Done!"
 # Move jetbrain files
 
 echo "#################### Installation complete! ####################"
+
+echo ".................... IMPORTANT: run chsh -s $(which zsh) ...................."
