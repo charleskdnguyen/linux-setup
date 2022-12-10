@@ -9,7 +9,6 @@ source ./fonts/install.sh
 source ./wallpapers/install.sh
 source ./gitconfig/install.sh
 source ./kitty/install.sh
-# source ./zsh/install.sh
 
 echo "Sourcing zshrc..."
 
