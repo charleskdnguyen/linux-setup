@@ -19,4 +19,4 @@ echo "Done!"
 
 echo "#################### Installation complete! ####################"
 
-echo ".................... IMPORTANT: run chsh -s $(which zsh) ...................."
+echo ".................... IMPORTANT: run in Kitty terminal: chsh -s $(which zsh) ...................."
