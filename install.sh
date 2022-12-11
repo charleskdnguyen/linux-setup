@@ -7,7 +7,9 @@ source ./scripts/links.sh
 source ./scripts/etc.sh
 source ./fonts/install.sh
 source ./gitconfig/install.sh
-source ./ui/install.sh
+#source ./ui/install.sh
+source ./ui/installv2.sh
+
 
 echo "Sourcing zshrc..."
 
@@ -19,4 +21,9 @@ echo "Done!"
 
 echo "#################### Installation complete! ####################"
 
-echo ".................... IMPORTANT: run in Kitty terminal: chsh -s $(which zsh) ...................."
+echo "Finals steps to complete setup:"
+
+echo "1) Run in Kitty terminal:"
+echo "chsh -s $(which zsh)"
+echo "2)Choose Polybar theme by running command:"
+echo "bash ~/.config/polybar/launch.sh --<chosen_theme>"
