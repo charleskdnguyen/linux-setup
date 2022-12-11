@@ -2,11 +2,11 @@
 
 echo "#################### Starting Installation... ####################"
 
-source ./scripts/yay.sh
-source ./scripts/links.sh
-source ./scripts/etc.sh
-source ./fonts/install.sh
-source ./gitconfig/install.sh
+# source ./scripts/yay.sh
+# source ./scripts/links.sh
+# source ./scripts/etc.sh
+# source ./fonts/install.sh
+# source ./gitconfig/install.sh
 #source ./ui/install.sh
 source ./ui/installv2.sh
 
@@ -22,9 +22,14 @@ echo "Done!"
 echo "#################### Installation complete! ####################"
 
 echo "Finals steps to complete setup:"
-
-echo "1) Run in Kitty terminal:"
-echo "chsh -s $(which zsh)"
-echo "2)Choose Polybar theme by running command:"
-echo "sh ~/.config/polybar/launch.sh --<chosen_theme>"
+echo "1)Choose Polybar theme by running command:"
 echo "[TO LIST ALL THEMES] -> sh ~/.config/polybar/launch.sh"
+echo "[TO CHOOSE THEME] -> sh ~/.config/polybar/launch.sh --<chosen_theme>"
+
+echo "2) Run in Kitty terminal:"
+echo "chsh -s $(which zsh)"
+
+echo "Initializing Polybar Theme..."
+# Already running??
+# sh ~/polybar-themes/setup.sh
+
