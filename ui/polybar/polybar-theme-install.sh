@@ -9,3 +9,5 @@ yay networkmanager-dmenu-git
 
 git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
 chmod +x $HOME/polybar-themes/setup.sh
+
+cp ~/linux-setup/ui/polybar/Polybar.desktop $HOME/.config/autostart/
