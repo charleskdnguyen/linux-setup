@@ -25,6 +25,7 @@ yay docker
 # Terminal
 echo "Installing terminal..."
 yay kitty-git
+yay alacritty
 
 # Tools
 echo "Installing Tools..."

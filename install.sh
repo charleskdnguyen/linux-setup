@@ -27,6 +27,7 @@ echo "[TO CHOOSE THEME] -> sh ~/.config/polybar/launch.sh --<chosen_theme>"
 
 echo "2) Run in Kitty terminal:"
 echo "chsh -s $(which zsh)"
+chsh -s $(which zsh)
 
 echo "Initializing Polybar Theme..."
 # Already running??
