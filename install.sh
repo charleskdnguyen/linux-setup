@@ -2,13 +2,12 @@
 
 echo "#################### Starting Installation... ####################"
 
-# source ./scripts/yay.sh
-# source ./scripts/links.sh
-# source ./scripts/etc.sh
-# source ./fonts/install.sh
-# source ./gitconfig/install.sh
-#source ./ui/install.sh
-source ./ui/installv2.sh
+source ./scripts/yay.sh
+source ./scripts/links.sh
+source ./scripts/etc.sh
+source ./fonts/install.sh
+source ./gitconfig/install.sh
+source ./ui/install.sh
 
 
 echo "Sourcing zshrc..."
@@ -21,7 +20,7 @@ echo "Done!"
 
 echo "#################### Installation complete! ####################"
 
-echo "Finals steps to complete setup:"
+echo "Post installation steps:"
 echo "1)Choose Polybar theme by running command:"
 echo "[TO LIST ALL THEMES] -> sh ~/.config/polybar/launch.sh"
 echo "[TO CHOOSE THEME] -> sh ~/.config/polybar/launch.sh --<chosen_theme>"
@@ -31,5 +30,5 @@ echo "chsh -s $(which zsh)"
 
 echo "Initializing Polybar Theme..."
 # Already running??
-# sh ~/polybar-themes/setup.sh
+bash ~/polybar-themes/setup.sh
 

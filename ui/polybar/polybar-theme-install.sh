@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Installing Polybar Themes dependencies..."
+yay polybar
 yay rofi-git
 yay pywal-git
 yay calc
