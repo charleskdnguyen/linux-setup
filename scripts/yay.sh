@@ -7,7 +7,6 @@ yay -Syu
 # Install ZSH
 echo "Installing ZSH..."
 yay zsh
-# zsh-completions zsh-syntax-highlighting zsh-autosuggestions
 
 ln -s ~/linux-setup/.
 
