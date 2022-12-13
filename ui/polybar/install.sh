@@ -20,7 +20,7 @@ git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
 chmod +x $HOME/polybar-themes/setup.sh
 
 mkdir $HOME/.config/autostart
-cp ~/linux-setup/ui/polybarv2/Polybar.desktop $HOME/.config/autostart/
+cp ~/linux-setup/ui/polybar/Polybar.desktop $HOME/.config/autostart/
 chmod +x $HOME/.config/autostart/Polybar.desktop
 
 cd polybar-themes
