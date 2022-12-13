@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Install Polybar
+echo "Installing Polybar..."
+
 yay polybar --noconfirm
 
 echo "Setting up Polybar directory..."

@@ -6,10 +6,10 @@ yay -Syu
 
 # Install ZSH
 echo "Installing ZSH..."
-yay zsh
-# zsh-completions zsh-syntax-highlighting zsh-autosuggestions
+yay -S --noconfirm zsh
 
-ln -s ~/linux-setup/.
+# TO REMOVE
+# ln -s ~/linux-setup/.
 
 # Git
 echo "Installing Git..."
