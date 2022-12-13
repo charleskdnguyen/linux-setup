@@ -19,17 +19,7 @@ echo "Done!"
 
 # Move jetbrain files
 
-echo "#################### Installation complete! ####################"
-
 echo "Finals steps to complete setup:"
-echo "1)Choose Polybar theme by running command:"
-echo "[TO LIST ALL THEMES] -> sh ~/.config/polybar/launch.sh"
-echo "[TO CHOOSE THEME] -> sh ~/.config/polybar/launch.sh --<chosen_theme>"
+echo "1) To view all themes run command ########### sh ~/.config/polybar/launch.sh"
 
-echo "2) Run in Kitty terminal:"
-echo "chsh -s $(which zsh)"
-
-echo "Initializing Polybar Theme..."
-# Already running??
-# sh ~/polybar-themes/setup.sh
-
+echo "#################### Installation complete! ####################"
