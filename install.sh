@@ -18,6 +18,7 @@ echo "Done!"
 
 echo "Finals steps to complete setup:"
 echo "1) To view all themes run command ########### sh ~/.config/polybar/launch.sh"
-echo "2) Import exported Jetbrain settings"
+echo "2) Reboot to launch Polybar"
+echo "3) Import exported Jetbrain settings"
 
 echo "#################### Installation complete! ####################"

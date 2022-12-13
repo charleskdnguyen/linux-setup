@@ -13,23 +13,24 @@ yay -S --noconfirm zsh
 
 # Git
 echo "Installing Git..."
-yay git
+yay -S --noconfirm  git
 
 # Development
 echo "Installing Development..."
-yay python python-virtualenv
-yay nodejs npm
-yay cmake
-yay docker
+yay -S --noconfirm python 
+yay -S --noconfirm python-virtualenv
+yay -S --noconfirm npm
+yay -S --noconfirm cmake
+yay -S --noconfirm docker
 
 # Terminal
 echo "Installing terminal..."
-yay kitty-git
+yay -S --noconfirm kitty-git
 
 # Tools
 echo "Installing Tools..."
-yay spotify
-yay neofetch
-yay google-chrome
+yay -S --noconfirm spotify
+yay -S --noconfirm neofetch
+yay google-chrome-beta
 yay visual-studio-code-bin
 yay postman-bin

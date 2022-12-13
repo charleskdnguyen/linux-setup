@@ -2,7 +2,7 @@
 
 echo "Installing Polybar..."
 
-yay polybar --noconfirm
+yay -S --noconfirm polybar
 
 echo "Setting up Polybar directory..."
 mkdir $HOME/.config/polybar
@@ -11,10 +11,10 @@ echo "Creating Polybar config and launch files..."
 touch $HOME/.config/polybar config.ini launch.sh
 
 echo "Installing Polybar Themes dependencies..."
-yay rofi-git
-yay pywal-git
-yay calc
-yay networkmanager-dmenu-git
+yay -S --noconfirm rofi-git
+yay -S --noconfirm pywal-git
+yay -S --noconfirm calc
+yay -S --noconfirm networkmanager-dmenu-git
 
 git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
 chmod +x $HOME/polybar-themes/setup.sh
