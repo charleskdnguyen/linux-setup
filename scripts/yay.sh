@@ -31,6 +31,6 @@ yay -S --noconfirm kitty-git
 echo "Installing Tools..."
 yay -S --noconfirm spotify
 yay -S --noconfirm neofetch
-yay google-chrome-beta
-yay visual-studio-code-bin
-yay postman-bin
+yay -S --noconfirm google-chrome-beta
+yay -S --noconfirm visual-studio-code-bin
+yay -S --noconfirm postman-bin
